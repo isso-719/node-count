@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count</title>
+</head>
+<body>
+    <h1><%= count %></h1>
+    <form action="/plus" method="post">
+        <input type="submit" value="+">
+    </form>
+    <form action="/minus" method="post">
+        <input type="submit" value="-">
+    </form>
+    <form action="/multi" method="post">
+        <input type="submit" value="×2">
+    </form>
+    <form action="/divide" method="post">
+        <input type="submit" value="÷2">
+    </form>
+    <form action="/clear" method="post">
+        <input type="submit" value="clear">
+    </form>
+
+    <h1><%= count2 %></h1>
+    <form action="/plus2" method="post">
+        <input type="submit" value="+">
+    </form>
+    <form action="/minus2" method="post">
+        <input type="submit" value="-">
+    </form>
+    <form action="/multi2" method="post">
+        <input type="submit" value="×2">
+    </form>
+    <form action="/divide2" method="post">
+        <input type="submit" value="÷2">
+    </form>
+    <form action="/clear2" method="post">
+        <input type="submit" value="clear">
+    </form>
+</body>
+</html>
